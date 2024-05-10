@@ -908,6 +908,7 @@ p {
    (max-device-width: 1024px) {
     .banner .mg {
         width: 350px;
+        object-fit: cover;
     }
 
     .contact img {
