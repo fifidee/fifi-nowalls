@@ -493,6 +493,7 @@ p3 {
   .contact .button {
     padding: 3px;
     width: 250px;
+    margin-left: 48px;
   }
   .pics img {
     vertical-align: middle;
