@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: Baloo2-VariableFont;
-  src: url(/Baloo2-VariableFont_wght.ttf);
+  src: url(Baloo2-VariableFont_wght.ttf);
 }
 body {
   font-family: "baloo", BalooBhaijaan;
@@ -389,6 +389,11 @@ p3 {
   .logo img {
     max-width: 100px;
   }
+
+  h2{ font-family: "baloo", BalooBhaijaan;
+    font-size: 20px;
+     
+}
   .carousel-dark .carousel-indicators [data-bs-target] {
     display: none;
   }
@@ -427,9 +432,8 @@ p3 {
     font-size: 8px;
   }
   .banner .pics {
-    display: inline;
-    width: 100%;
-    height: auto;
+   display: flex;
+   justify-content: center;
   }
   .banner .laptop {
     display: none;
@@ -549,6 +553,10 @@ p3 {
     font-size: 16px;
     margin-right: 19px;
   }
+.footer .phone {
+    margin-left: 10px;
+}
+  
   .menu {
     display: none; /* Hide menu by default */
     justify-content: flex-end; /* Aligns items to the right */
