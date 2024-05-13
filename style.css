@@ -387,7 +387,9 @@ p3 {
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 575px) {
   .logo img {
-    max-width: 100px;
+  max-width: 65px;
+    position: absolute;
+    top: 3px;
   }
 
   h2{ font-family: "baloo", BalooBhaijaan;
@@ -561,10 +563,10 @@ p3 {
     display: none; /* Hide menu by default */
     justify-content: flex-end; /* Aligns items to the right */
   }
-  .banner .para1 {
-    margin: 6px;
-    margin-top: revert;
-  }
+.banner .pics {
+    margin-left: 0px;
+    column-gap: 0px;
+}
   .hamburger-menu {
     margin-bottom: 20px;
     margin-left: 5px;
@@ -622,7 +624,7 @@ p3 {
     font-size: 15px;
   }
   .banner .line2 {
-    margin-top: 26px;
+    margin-top: 12px;
   }
   .service .to {
     padding-top: 35px;
@@ -641,6 +643,7 @@ p3 {
   .bulb {
     display: none;
   }
+  
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .banner .main {
